@@ -1,6 +1,7 @@
 import XCTest
 @testable import AllYourBase
 
+// swiftlint:disable force_try
 class AllYourBaseTests: XCTestCase {
     func testSingleBitOneToDecimal() {
         XCTAssertEqual(try! Base.outputDigits(inputBase: 2, inputDigits: [1], outputBase: 10), [1])
