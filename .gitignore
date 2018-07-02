@@ -28,4 +28,3 @@ DerivedData
 .build
 LinuxMain.swift
 Package.resolved
-xswift.xcodeproj/
